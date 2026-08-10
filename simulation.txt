@@ -1,0 +1,17 @@
+4-to-2 Priority Encoder Simulation
+
+D       Y       Valid
+0000    00      0
+0001    00      1
+0010    01      1
+0100    10      1
+1000    11      1
+0011    01      1
+1100    11      1
+1111    11      1
+
+Priority:
+D3 > D2 > D1 > D0
+
+When multiple inputs are HIGH, the highest-priority input
+determines the output.
